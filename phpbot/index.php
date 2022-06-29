@@ -42,9 +42,9 @@ class ObtieneMails{
 
 
  //usuario de gmail, email a donde deseamos conectarnos
- var $user="ugcpruebas@gmail.com";
+ var $user="test@gmail.com";
  //password de nuestro email
- var $password="9876abcd";
+ var $password="";
  //información necesaria para conectarnos al INBOX de gmail,
  //incluye el servidor, el puerto 993 que es para imap, e indicamos que no valide con ssl
  var $mailbox="{imap.gmail.com:993/imap/ssl/novalidate-cert}INBOX";
